@@ -1,0 +1,7 @@
+
+# for devevolpment purpose
+coverage
+nose
+tox
+pudb
+flake8
