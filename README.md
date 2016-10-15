@@ -5,7 +5,10 @@
 做这个镜像的目的。
 
 ## 一、下载代码
-git clone ....
+
+```bash
+git clone https://github.com/recall704/bayip.git
+```
 
 
 ## 二、生成镜像
@@ -29,13 +32,19 @@ HOSTS 参数需要按实际情况填写，对应为需要扫描的网段，一�
 服务有两个接口
 
 1. 获取当前在线主机：
+
+```
 curl http://192.168.1.33:8888/v1/online
+```
 
 3. 获取可用 IP
+
+```
 curl http://192.168.1.33:8888/v1/offline
+```
 
 ## 五、其它
 程序在执行的时候调用的是 nmap，执行大概需要 20s 左右，请耐心等待。
 
-## License
+## 六、License
 MIT
